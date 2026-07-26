@@ -1,7 +1,7 @@
 # NosoNotes — Privacy Policy
 
 **Effective date:** 30 June 2026
-**Applies to:** the NosoNotes by Delfilical browser extension (Chrome / Edge), current store release v0.4.1
+**Applies to:** the NosoNotes by Delfilical browser extension (Chrome / Edge), current store release v0.6.2-beta
 **Developer contact:** Philip Taylor — Delfilical · pgt1980@outlook.com
 
 ## Summary
@@ -16,7 +16,7 @@ NosoNotes is a reference search tool for clinical coders. It stores the followin
 
 **Reference PDFs.** Copies of the published coding standards documents that you load yourself are stored in the extension's local IndexedDB database on your device, so they reopen automatically. They are never uploaded anywhere. You can remove them at any time with the × button in the viewer.
 
-**Local guidance packs and trusted keys.** If you load a trust's signed guidance pack, the pack (its coding guidance) is stored in the extension's local IndexedDB, and the trust's public verification key is stored in extension storage. Both are loaded by you and never transmitted; you can remove them at any time from the settings page. A public key is not secret or identifying — it is only the counterpart used to check, on your device, that a pack is genuinely your trust's.
+**Local guidance packs.** If you load a trust's signed guidance pack, the pack (its coding guidance, including its licence certificate — public verification data only) is stored in the extension's local IndexedDB. Packs are loaded by you and never transmitted; you can remove them at any time from the settings page. The certificate contains no secret or identifying data — it is only the public material used to check, on your device, that a pack is genuinely your trust's.
 
 **Preferences.** Display and search-layer settings are stored locally in extension storage and the page's local storage.
 
