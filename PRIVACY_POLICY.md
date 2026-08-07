@@ -1,7 +1,7 @@
 # NosoNotes — Privacy Policy
 
 **Effective date:** 30 June 2026
-**Applies to:** the NosoNotes by Delfilical browser extension (Chrome / Edge), current store release v0.6.2-beta
+**Applies to:** the NosoNotes by Delfilical browser extension (Chrome / Edge), release v0.7.0 (and the v0.6.2-beta store release it supersedes)
 **Developer contact:** Philip Taylor — Delfilical · pgt1980@outlook.com
 
 ## Summary
