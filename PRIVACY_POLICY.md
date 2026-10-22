@@ -1,7 +1,7 @@
 # NosoNotes — Privacy Policy
 
-**Effective date:** 30 June 2026
-**Applies to:** the NosoNotes by Delfilical browser extension (Chrome / Edge), release v0.8.0 and the releases it supersedes (v0.7.0, v0.6.2-beta). *v0.8.0 note: no change to data practices — the release is user-interface only (search-term pills, result-view defaults). It stores strictly less than v0.7.0: result-band view choices are no longer saved between searches, and the extension now suppresses the browser's own autofill dropdown on the site's search box (no data is read, written or transmitted by that change).*
+**Effective date:** 21 October 2026 (previous: 30 June 2026)
+**Applies to:** the NosoNotes by Delfilical browser extension (Chrome / Edge), release v0.9.0 and the releases it supersedes (v0.8.0, v0.7.0, v0.6.2-beta). *v0.9.0 note: no change to data practices — still no network requests and nothing transmitted. The release adds two locally stored preference items, described under Preferences below: a per-document count of how often you have opened a reference document online (used only to show you a one-time "consider downloading it" tip on your own screen) and whether you dismissed that tip. The counts never leave your browser.* *v0.8.0 note: no change to data practices — the release was user-interface only (search-term pills, result-view defaults). It stores strictly less than v0.7.0: result-band view choices are no longer saved between searches, and the extension suppresses the browser's own autofill dropdown on the site's search box (no data is read, written or transmitted by that change).*
 **Developer contact:** Philip Taylor — Delfilical · pgt1980@outlook.com
 
 ## Summary
@@ -18,7 +18,9 @@ NosoNotes is a reference search tool for clinical coders. It stores the followin
 
 **Local guidance packs.** If you load a trust's signed guidance pack, the pack (its coding guidance, including its licence certificate — public verification data only) is stored in the extension's local IndexedDB. Packs are loaded by you and never transmitted; you can remove them at any time from the settings page. The certificate contains no secret or identifying data — it is only the public material used to check, on your device, that a pack is genuinely your trust's.
 
-**Preferences.** Display and search-layer settings are stored locally in extension storage and the page's local storage.
+**Reference documents (the guidance shelf, from v0.9.0).** If you load a signed shelf file indexing a published reference document, it is stored like a guidance pack. Attaching your own downloaded copy of such a document stores it like a reference PDF. Neither is transmitted anywhere.
+
+**Preferences.** Display, search-layer and guidance-source settings are stored locally in extension storage and the page's local storage. From v0.9.0 this also includes the panel's width and whether it is open, and your choice of panel or classic layout (the layout choice is mirrored into the page's local storage so it can be read before the extension draws). Also from v0.9.0: the NosoForge licence state, which is the name of the licensed trust and the certificate's expiry date, derived from a loaded signed pack or from a trust certificate you import on the settings page; the certificate itself (a trust's public key countersigned by Delfilical, containing no personal data) is stored locally if imported. Nothing about the licence is transmitted anywhere. From v0.9.0 this includes, per reference document, a count of how many times you have opened it online and whether you dismissed the resulting "consider downloading a copy" tip — used only to decide whether to show you that tip, stored only on your device, and removable like any other stored data.
 
 ## What the extension does not do
 
@@ -51,3 +53,4 @@ If a future version of NosoNotes changes how data is handled (for example, optio
 ## Contact
 
 Questions about this policy or the extension: Philip Taylor — pgt1980@outlook.com
+
