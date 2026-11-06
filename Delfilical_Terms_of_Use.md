@@ -43,6 +43,10 @@ NosoNotes is an independent project. It is not produced, sponsored, or endorsed 
 
 NosoNotes is proprietary software. It is licensed free of charge for NHS clinical coding use. See the `LICENCE` file for full terms, including permitted use, restrictions, and conditions for NHS organisations.
 
+## Local guidance pack licensing
+
+Loading a trust's local guidance packs requires a **licence certificate** issued by Delfilical: a cryptographic countersignature of the trust's signing key, embedded in each pack. Certificates are issued per trust — **trial certificates are valid for three months and production certificates for twelve months** — and the software shows a renewal notice from approximately 30 days before expiry. A lapsed certificate does not stop a trust's existing packs loading: they continue to load, with a notice that the licence has lapsed. Signing new packs requires a current certificate. Renewal is by re-issue of the certificate. (Separately, a pack may carry its own end date, after which that pack no longer loads.) The certificate licenses the loading of that trust's packs in NosoNotes and NosoNotes Lite; it does not transfer any rights in the software, and the trust retains full ownership of its guidance content and its signing keys (the private key is never disclosed to Delfilical). Continuity arrangements for the event of supplier failure (certificate escrow) are available on request and will be incorporated into these terms before the first production renewal cycle.
+
 ## Changes
 
 These terms may be updated from time to time. The current version is always available within the extension (settings page or extension folder).
